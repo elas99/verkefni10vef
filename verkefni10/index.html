@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Verkefni 10 - Viðmótsforritun</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="main.css">	
+  		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ 		 <link rel="stylesheet" href="/resources/demos/style.css">
+  		<style>
+  #draggable { width: 1000px; height: 250px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 1000px; height: 300px; padding: 0.5em; float: left; margin: 10px; border: solid 2px; }
+      #street-view {
+        height: 500px;
+      }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	</head>
+	<body id="container">	
+    <div id="street-view"></div>
+<h2>Dragðu þessar myndir</h2>
+<div id="draggable" class="ui-widget-content">
+  <div id="images" id="sortable"></div>
+</div>
+ 
+<div id="droppable" class="ui-widget-header">
+  <p>Droppaðu því hérna</p>
+</div>
+
+  
+
+
+	<script src="img.json"></script>
+	<script src="map.js"></script>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="v10.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADjdzPfQ9S-Bvyq7kLbQHc3Qwb9Cw2TkU&callback=initialize"></script>
+
+	</body>
+</html>
