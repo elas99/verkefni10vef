@@ -2,7 +2,7 @@
 
 
 Efst á síðunni kemur street view af gullfoss, nota map.js til þess að búa til mappið og svo er það kallað í div'inu street-view.
-Næst kemur API með myndum af gullfoss, ég setti það í max 4 myndir till þess að það væri ekki of stórt, það er hægt að draga þessar myndir inná kassan svo það kemur message Vel Gert.
-Drag og Drop javascriptið er inn í v10.js, streeviewið er í v10.js og API í img.json
+Næst kemur API með myndum af gullfoss, ég setti það í max 4 myndir till þess að það væri ekki of stórt, það er hægt að fela þessar myndir með effects
+Til að fela myndirnar javascriptið er inn í v10.js, streeviewið er í map.js og API í img.json
 
 Aron og ég hjálpuðumst á hvað við gætum gert í verkefninu og vorum með flest sömu sources
