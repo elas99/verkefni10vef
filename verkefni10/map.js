@@ -8,15 +8,3 @@ var panorama;
               zoom: 1
             });
       }
-      // Toggles between map and panorama view
-function togglePanorama(){
-    if(isPanorama){
-        map.streetView.setVisible(false);
-        $('#message').empty().append('Click here to take a tour of our office.');
-        isPanorama = 0;
-    } else{
-        map.streetView.setVisible(true);
-        $('#message').empty().append('Back to the map.');
-        isPanorama = 1;
-    }
-}

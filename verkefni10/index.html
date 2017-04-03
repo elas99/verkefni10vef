@@ -8,26 +8,43 @@
   		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
  		 <link rel="stylesheet" href="/resources/demos/style.css">
   		<style>
-  #draggable { width: 1000px; height: 250px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
-  #droppable { width: 1000px; height: 300px; padding: 0.5em; float: left; margin: 10px; border: solid 2px; }
+  		.toggler { width: 500px; height: 200px; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px; height: 170px; padding: 0.4em; position: absolute; left: 250px; }
+  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
       #street-view {
         height: 500px;
       }
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <div id="street-view"></div>
 
 	</head>
-	<body id="container">	
-    <div id="street-view"></div>
-<h2>Dragðu þessar myndir</h2>
-<div id="draggable" class="ui-widget-content">
-  <div id="images" id="sortable"></div>
+<div class="toggler">
+  <div id="effect">   
+    <p id="images"></p>  
+  </div>
 </div>
+ <h3 >Þú getur falið myndirnar</h3>
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+</select>
  
-<div id="droppable" class="ui-widget-header">
-  <p>Droppaðu því hérna</p>
-</div>
+<button id="button" class="ui-state-default ui-corner-all">Nota Effect</button>
 
   
 
